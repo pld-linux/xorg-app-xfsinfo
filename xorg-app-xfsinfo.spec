@@ -1,5 +1,5 @@
 Summary:	xfsinfo application
-Summary(pl):	Aplikacja xfsinfo
+Summary(pl.UTF-8):   Aplikacja xfsinfo
 Name:		xorg-app-xfsinfo
 Version:	1.0.1
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xfsinfo application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xfsinfo.
 
 %prep
