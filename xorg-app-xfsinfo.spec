@@ -1,5 +1,5 @@
 Summary:	xfsinfo application
-Summary(pl.UTF-8):   Aplikacja xfsinfo
+Summary(pl.UTF-8):	Aplikacja xfsinfo
 Name:		xorg-app-xfsinfo
 Version:	1.0.1
 Release:	1
