@@ -1,12 +1,12 @@
-Summary:	xfsinfo application
-Summary(pl.UTF-8):	Aplikacja xfsinfo
+Summary:	xfsinfo application - X font server information utility
+Summary(pl.UTF-8):	Aplikacja xfsinfo - narzędzie informacyjne dla serwera fontów X
 Name:		xorg-app-xfsinfo
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfsinfo-%{version}.tar.bz2
-# Source0-md5:	e98b18fbce1261de30b1de819d86f48a
+# Source0-md5:	e6c0071f6d5436113982f4a575d3f94b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -17,10 +17,17 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xfsinfo application.
+xfsinfo is a utility for displaying information about an X font
+server. It is used to examine the capabilities of a server, the
+predefined values for various parameters used in communicating between
+clients and the server, and the font catalogues and alternate servers
+that are available.
 
 %description -l pl.UTF-8
-Aplikacja xfsinfo.
+xfsinfo to narzędzie wyświetlające informacje o serwerze fontów X.
+Służy do sprawdzania możliwości serwera, predefiniowanych wartości
+różnych parametrów używanych przy komunikacji między klientami a
+serwerem, katalogów fontów oraz innych dostępnych serwerów.
 
 %prep
 %setup -q -n xfsinfo-%{version}
