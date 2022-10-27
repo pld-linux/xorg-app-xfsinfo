@@ -1,19 +1,21 @@
 Summary:	xfsinfo application - X font server information utility
 Summary(pl.UTF-8):	Aplikacja xfsinfo - narzędzie informacyjne dla serwera fontów X
 Name:		xorg-app-xfsinfo
-Version:	1.0.6
+Version:	1.0.7
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	https://xorg.freedesktop.org/releases/individual/app/xfsinfo-%{version}.tar.bz2
-# Source0-md5:	0060d6151427d9e570e54fc52a88e7d7
+Source0:	https://xorg.freedesktop.org/releases/individual/app/xfsinfo-%{version}.tar.xz
+# Source0-md5:	594cb9b08cefc112a7daa058ade82955
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	tar >= 1:1.22
 BuildRequires:	xorg-lib-libFS-devel
-BuildRequires:	xorg-proto-xproto-devel >= 7.0.17
+BuildRequires:	xorg-proto-xproto-devel >= 7.0.25
 BuildRequires:	xorg-util-util-macros >= 1.8
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
